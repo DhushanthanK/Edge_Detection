@@ -2,6 +2,24 @@
 
 This project demonstrates the use of edge detection techniques for edge detection in images and videos. It involves a comparison between Canny Edge Detection and Holistically Nested Edge Detection (HED), testing the performance of Canny Edge Detection on video, and focusing on specific regions using a Region of Interest (ROI) for more targeted edge detection.
 
+Image : 
+
+![image](https://github.com/user-attachments/assets/6cfc1094-79aa-48bf-9935-eddb0d643fa8)
+
+Canny Edge Detection results : 
+
+![Canny_results](https://github.com/user-attachments/assets/ef563675-903c-4100-b255-6d7ad5905e23)
+
+HED results : 
+
+![HED_results](https://github.com/user-attachments/assets/1fa7095c-7ffd-476b-aa73-a227dbc6ebaa)
+
+Canny Edge Detection results on video:
+
+[https://github.com/user-attachments/assets/75e80fbd-5ed6-4082-8eca-eb55806a81eb](https://github.com/user-attachments/assets/dd6dacc1-d069-4333-86ea-867f5d941e79
+)
+
+
 ## Key Features
 
 1. **Edge Detection Comparison**: A comparative analysis of Canny Edge Detection and Holistically Nested Edge Detection (HED).
@@ -33,6 +51,31 @@ This project demonstrates the use of edge detection techniques for edge detectio
    - The project uses the ROI to mask unwanted areas and perform Canny Edge Detection only on the relevant region.
 
    - Hough Line Transform is then used to detect lines in the ROI, which are drawn on the original frame.
+  
+     
+## Data
+
+- **Input Files**:
+  - `video.mp4`: The video file used for testing edge detection.
+  - `image.jpg`: An image file for edge detection comparisons.
+
+- **Models**:
+  - **HED Models**:
+    - `HED_models/deploy.prototxt`: The model configuration file.
+    - `HED_models/hed_pretrained_bsds.caffemodel`: The pre-trained model weights for HED.
+
+## Scripts
+
+- **Edge Detection Comparison**:
+  - `canny_edge_detection.py`: Script for Canny Edge Detection.
+  - `hed.py`: Script for Holistically Nested Edge Detection.
+
+- **Canny Edge Detection on Video**:
+  - `canny_edge_detection_on_video.py`: Script to test Canny Edge Detection on a video.
+
+- **Canny Edge Detection with Region of Interest (ROI)**:
+  - `canny_edge_detection_on_video_in_the_roi.py`: Script to detect edges within a specific region of the video and highlight lane lines.
+ 
 
 ## Installation
 

@@ -1,4 +1,4 @@
-# Edge Detection and Lane Detection Project
+# Edge Detection
 
 This project demonstrates the use of edge detection techniques for edge detection in images and videos. It involves a comparison between Canny Edge Detection and Holistically Nested Edge Detection (HED), testing the performance of Canny Edge Detection on video, and focusing on specific regions using a Region of Interest (ROI) for more targeted edge detection.
 
@@ -123,7 +123,7 @@ Ensure Python 3.x and the required libraries are installed:
 	1.	Grayscale Conversion: Converts the frame to grayscale for easier edge detection.
 	2.	Gaussian Blur: Smooths the image to reduce noise.
 	3.	Canny Edge Detection: Detects edges based on gradient changes in the image.
-	4.	Region of Interest (ROI): Masks the image to focus only on the relevant region for lane detection.
+	4.	Region of Interest (ROI): Masks the image to focus only on the relevant region for detection.
 	5.	Hough Line Transform: Detects straight lane lines in the masked edge-detected image.
 	6.	Line Drawing: Draws the detected lines on the original frame and saves the video output.
 

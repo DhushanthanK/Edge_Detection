@@ -82,7 +82,7 @@ Canny Edge Detection results on video:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/edge-detection.git
+   git clone [https://github.com/your-username/edge-detection.git](https://github.com/DhushanthanK/edge-detection.git)
    cd edge-detection
 
 2. **Install dependencies:

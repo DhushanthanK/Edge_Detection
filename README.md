@@ -2,10 +2,6 @@
 
 This project demonstrates the use of edge detection techniques for edge detection in images and videos. It involves a comparison between Canny Edge Detection and Holistically Nested Edge Detection (HED), testing the performance of Canny Edge Detection on video, and focusing on specific regions using a Region of Interest (ROI) for more targeted edge detection.
 
-Image : 
-
-![image](https://github.com/user-attachments/assets/6cfc1094-79aa-48bf-9935-eddb0d643fa8)
-
 Canny Edge Detection results : 
 
 ![Canny_results](https://github.com/user-attachments/assets/ef563675-903c-4100-b255-6d7ad5905e23)
